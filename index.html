@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+
+    <style>
+      /* body {
+        background-color: #fff2cc;
+      } */
+
+      body {
+        background-color: lightblue;
+      }
+
+      @media (min-width: 640px) {
+        body {
+          background-color: #dfa67b;
+        }
+      }
+
+      @media (min-width: 768px) {
+        body {
+          background-color: #f4b183;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        body {
+          background-color: #ffd966;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        body {
+          background-color: #fff2cc;
+        }
+      }
+
+      .heading {
+        padding: 8px 16px;
+        background-color: #b46060;
+        max-width: fit-content;
+        border-radius: 6px;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        /* transition: background-color, border, box-shadow, color; */
+        transition: all;
+        cursor: pointer;
+        transition-duration: 0.5s;
+      }
+
+      .heading:hover {
+        border: 1px solid #b46060;
+        color: #b46060;
+        background-color: transparent;
+        box-shadow: 0px 10px 5px -3px, 0 4px 6px -4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 class="heading">Media Queries</h3>
+  </body>
+</html>
